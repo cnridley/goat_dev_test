@@ -8,12 +8,12 @@ body{
 h1{
     font-family: 'Open Sans', sans-serif;
     color: #38503F;
-    font-size: 88px;
+    font-size: 5rem;
     line-height: 101px;
     text-align: center;
 }
 
-/* feautured row */
+/* FEATURED ROW */
 .featuredRow{
     width: 90%;
     margin: auto;
@@ -22,8 +22,8 @@ h1{
 }
 
 .featuredRow h3 {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.3rem;
+    line-height: 2rem;
     color: #38503F;
     width: 1150px; 
 }
@@ -45,26 +45,26 @@ h1{
 
 .techCol p:nth-child(1) {
     text-transform: uppercase;
-    font-size: 16px;
-    margin-top: 30px;
+    font-size: 1rem;
+    margin-top: 5%;
 }
 
 .techCol p:nth-child(2) {
-    font-size: 34px;
+    font-size: 2rem;
 }
 
 .techCol p:nth-child(3) {
-    font-size: 20px;
-    margin-top: 30px;
+    font-size: 1.2rem;
+    margin-top: 5%;
 }
 
 .techCol a {
     text-decoration: underline;
     color: #E5E8D6;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
     width: 80%;
-    margin: 70px auto auto;
+    margin: 12% auto auto;
     display: block;
 }
 
