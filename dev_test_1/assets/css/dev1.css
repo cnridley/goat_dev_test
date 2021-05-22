@@ -73,10 +73,30 @@ h1{
 }
 
 
-/* CATEGORY MENY */
+/* CATEGORY MENU */
 
 hr {
-    margin: 40px auto;
+    margin: 40px auto 10px;
     width: 1150px;
     border: 2px solid #B7CEBE;
 }
+
+.nav-item {
+    margin-left: 7rem;
+    font-size: 1.2rem;
+}
+
+.nav-item:first-child{
+    margin-left: 0px;
+}
+
+.nav-item a {
+    color: #38503F;
+}
+
+.nav-item a:hover {
+    color: #38503F;
+    text-decoration: underline;
+    font-weight: 1000;
+}
+
