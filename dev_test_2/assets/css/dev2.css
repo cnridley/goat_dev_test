@@ -76,3 +76,26 @@ hr {
     position: absolute;
     bottom: 13%;
 }
+
+.frameRow{
+    position: absolute;
+    left: 90px;
+    bottom: 5px;
+    width: 85%;
+    height: 100px;
+}
+
+.col-md-3 p:nth-child(1) {
+    color: #569FD3;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+.col-md-3 p:nth-child(2) {
+    color: white;
+    font-family: 'Volkhov', serif;
+    margin-top: -10px;
+    font-size: 1.3rem;
+}
