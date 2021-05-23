@@ -101,7 +101,7 @@ hr {
 }
 
 /*-- for medium and small screens! --*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     body {
         height: 100vh;
         width: 100vw;
@@ -198,3 +198,109 @@ hr {
         font-size: 0.9rem;
     }
 }
+
+/*-- MEDIA QUERY FOR IPAD --*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    body {
+        height: 100vh;
+        width: 100vw;
+        background-color: #012641;
+    }
+    
+    .students {
+        height: 60%;
+        width: 60%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    nav {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: white !important;
+    }
+    
+    
+    .breadcrumb-item {
+        font-family: 'Open Sans', sans-serif !important;
+        color: white !important;
+        font-size: 0.5rem !important;
+    }
+    
+    .quotes {
+        position: absolute;
+        top: 60px;
+        left: 10px;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .headline {
+        position: absolute;
+        top: 130px;
+        left: 50px;
+        width: 40%;
+    }
+    
+    .headline p:nth-child(1) {
+        color: #569FD3;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+    
+    .headline p:nth-child(2) {
+        color: white;
+        font-family: 'Volkhov', serif;
+        font-size: 1.8rem;
+        margin: 20px 0;
+    }
+    
+    .headline p:nth-child(3) {
+        color: #CDE3F2;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+    }
+    
+    .headline p:nth-child(4) {
+        color: #CDE3F2;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.7rem;
+        width: 50%;
+    }
+    
+    hr {
+        background-color: #569FD3;
+        width: 100%;
+        min-height: 2px;
+        position: absolute;
+        bottom: 38%;
+    }
+    
+    .frameRow{
+        position: absolute;
+        left: 20px;
+        bottom: 28%;
+        width: 90%;
+        height: 100px;
+    }
+    
+    .col-md-3 p:nth-child(1) {
+        color: #569FD3;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 10px;
+        font-size: 0.6rem;
+    }
+    
+    .col-md-3 p:nth-child(2) {
+        color: white;
+        font-family: 'Volkhov', serif;
+        margin-top: -10px;
+        font-size: 1rem;
+    }
+  }
