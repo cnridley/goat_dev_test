@@ -99,3 +99,102 @@ hr {
     margin-top: -10px;
     font-size: 1.3rem;
 }
+
+/*-- for medium and small screens! --*/
+@media only screen and (max-width: 768px) {
+    body {
+        height: 100vh;
+        width: 100vw;
+        background-color: #012641;
+    }
+    
+    .students { /*--image of two student --*/
+        display: none;
+    }
+    
+    /* -- breadcrumbs at top of page --*/
+    nav {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        color: white !important;
+    }
+    
+    
+    .breadcrumb-item {
+        font-family: 'Open Sans', sans-serif !important;
+        color: white !important;
+        font-size: 0.6rem !important;
+    }
+    /*-- quotation image --*/
+    .quotes {
+        position: absolute;
+        top: 60px;
+        left: 40px;
+        height: 80px;
+        width: 120px;
+    }
+    
+    /*-- Headline in quotes --*/
+    .headline {
+        position: absolute;
+        top: 100px;
+        left: 70px;
+        width: 80%;
+    }
+    
+    .headline p:nth-child(1) {
+        color: #569FD3;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.9rem;
+    }
+    
+    .headline p:nth-child(2) {
+        color: white;
+        font-family: 'Volkhov', serif;
+        font-size: 1.2rem;
+        margin: 15px 0;
+    }
+    
+    .headline p:nth-child(3) {
+        color: #CDE3F2;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.8rem;
+    }
+    
+    .headline p:nth-child(4) {
+        color: #CDE3F2;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.5rem;
+        width: 50%;
+    }
+    
+    hr {
+       display: none;
+    }
+    
+    .frameRow{
+        position: absolute;
+        left: 45px;
+        bottom: 250px;
+        width: 85%;
+        height: 100px;
+    }
+    
+    .col-md-3 p:nth-child(1) {
+        color: #569FD3;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 5px;
+        font-size: 0.7rem;
+    }
+    
+    .col-md-3 p:nth-child(2) {
+        color: white;
+        font-family: 'Volkhov', serif;
+        margin-top: -10px;
+        font-size: 0.9rem;
+    }
+}
