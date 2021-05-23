@@ -1,0 +1,40 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Volkhov', serif; */
+
+/* body {
+    background-color: #012641;
+     background-image: url(/dev_test_2/images/image6.png);
+    background-repeat: no-repeat;
+    background-size: 60% 90%;
+    background-attachment: fixed;
+    background-position: right;
+    position: abolsute;
+    top: 0;
+    right: 0;
+} */
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #012641;
+}
+
+img {
+    height: 85%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    
+}
+
+.breadcrumb-item {
+    font-family: 'Open Sans', sans-serif !important;
+    color: white !important;
+}
