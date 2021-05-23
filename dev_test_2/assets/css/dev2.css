@@ -20,7 +20,7 @@ body {
     background-color: #012641;
 }
 
-img {
+.students {
     height: 85%;
     position: absolute;
     top: 0;
@@ -30,11 +30,54 @@ img {
 nav {
     position: absolute;
     top: 20px;
-    left: 80px;
-    
+    left: 120px;
+    color: white !important;
 }
+
 
 .breadcrumb-item {
     font-family: 'Open Sans', sans-serif !important;
     color: white !important;
+    font-size: 0.8rem !important;
+}
+
+.quotes {
+    position: absolute;
+    top: 120px;
+    left: 60px;
+}
+
+.headline {
+    position: absolute;
+    top: 170px;
+    left: 120px;
+    width: 40%;
+}
+
+.headline p:nth-child(1) {
+    color: #569FD3;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.headline p:nth-child(2) {
+    color: white;
+    font-family: 'Volkhov', serif;
+    font-size: 2.9rem;
+    margin: 30px 0;
+}
+
+.headline p:nth-child(3) {
+    color: #CDE3F2;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+}
+
+.headline p:nth-child(4) {
+    color: #CDE3F2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    width: 50%;
 }
