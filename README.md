@@ -13,7 +13,7 @@ For styling, I used Bootstrap 5 to design the rows and columns, and to ensure th
 
 The colors were taken from the provided Figma file.
 
-The font on the Figma file was 'Sohne', however, I did not have acces to Sohne, so used a the Google Font 'Opens Sans' as an alternative. 
+The font on the Figma file was 'Sohne', however, I did not have acces to Sohne, so used the Google Font 'Opens Sans' as an alternative. 
 
 The images were taken from the Figma file, and resized as necessary to fit. 
 
@@ -22,7 +22,7 @@ The insights cards were created using Bootstrap Cards, and then styled using the
 To make page mobile responsive I have used media queries within the CSS file. 
 When viewing a mobile phone sized screen the featured row is split into two with the image first. 
 The categories menu stays on one line with smaller margins and font sizes. 
-The insight cards stack on top of each other and becomes 1 per row. 
+The insight cards stack on top of each other and becomes one per row. 
 
 The second media query used was for an iPad and iPad Pro, the display is the same as larger screens, but the font sizes and widths had to be slightly decreased to ensure it fit on the row. 
 
