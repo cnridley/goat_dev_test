@@ -1,12 +1,9 @@
-# goat_dev_test
-Goat assessment to test technical ability
+# GOAT DEV SCREENING 
 
+Github repo to assess technical ability using HTML, CSS and JS. Assessment has been split into three sections, each having their own directory in the repository. 
 
-<div class="techCol">
-            <p>Technology</p>
-            <p>How to Pick Technology</p>
-            <p>Technology is a significant investment and an incredibly useful one, when the right technology is brought in.
-                Here are some tips and considerations to help you pick the most useful tech for your company.
-            </p>
-            <button>Discover More</button>
-        </div>
+## Section 1 - Recreate a simple component
+### Directory name: Dev_test_1 
+
+For this section, I have to build the following component.
+
