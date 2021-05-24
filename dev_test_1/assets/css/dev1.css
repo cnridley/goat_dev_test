@@ -91,6 +91,9 @@ hr {
 
 .nav-item:first-child{
     margin-left: 0px;
+    text-decoration: underline;
+    font-weight: bold;
+    text-underline-offset: 7px;
 }
 
 .nav-item a {
@@ -259,6 +262,12 @@ hr {
     font-weight: 1000;
 }
 
+.nav-item:first-child {
+    text-decoration: underline;
+    font-weight: bold;
+    text-underline-offset: 7px;
+}
+
 
 /* -- INSIGHTS ROW --*/
 
@@ -399,6 +408,11 @@ hr {
         font-weight: 1000;
     }
     
+    .nav-item:first-child {
+        text-decoration: underline;
+        font-weight: bold;
+        text-underline-offset: 7px;
+    }
     
     /* -- INSIGHTS ROW --*/
     
