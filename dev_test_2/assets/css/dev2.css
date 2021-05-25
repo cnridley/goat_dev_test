@@ -6,14 +6,14 @@ body {
     width: 100vw;
     background-color: #012641;
 }
-
+/* image of the two students */
 .students {
     height: 85%;
     position: absolute;
     top: 0;
     right: 0;
 }
-
+/* breadcrumb navigation */
 nav {
     position: absolute;
     top: 20px;
@@ -27,13 +27,13 @@ nav {
     color: white !important;
     font-size: 0.8rem !important;
 }
-
+/* quotation marks */
 .quotes {
     position: absolute;
     top: 120px;
     left: 60px;
 }
-
+/* main text */
 .headline {
     position: absolute;
     top: 170px;
@@ -76,7 +76,7 @@ hr {
     position: absolute;
     bottom: 13%;
 }
-
+/* four frames at the bottom of the page */
 .frameRow{
     position: absolute;
     left: 90px;
@@ -208,7 +208,7 @@ hr {
         background-color: #012641;
     }
     
-    .students {
+    .students { /* image of two student */
         height: 60%;
         width: 60%;
         position: absolute;
@@ -216,7 +216,7 @@ hr {
         right: 0;
     }
     
-    nav {
+    nav { /*breadcrumb navigation */
         position: absolute;
         top: 20px;
         left: 20px;
@@ -229,7 +229,8 @@ hr {
         color: white !important;
         font-size: 0.5rem !important;
     }
-    
+
+    /*quotation marks */
     .quotes {
         position: absolute;
         top: 60px;
@@ -238,6 +239,7 @@ hr {
         height: 150px;
     }
     
+    /*main text on page */
     .headline {
         position: absolute;
         top: 130px;
@@ -280,7 +282,7 @@ hr {
         position: absolute;
         bottom: 38%;
     }
-    
+    /* four frames at tthe bottom of the page */
     .frameRow{
         position: absolute;
         left: 20px;
