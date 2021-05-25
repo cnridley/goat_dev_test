@@ -49,3 +49,20 @@ When viewing a mobile phone sized screen the image of the two student is set to 
 The four frames at the bottom turn into four rows. 
 
 The second media query used was for an iPad and iPad Pro, the display is the same as larger screens, but the font sizes and widths had to be slightly decreased to ensure it fit on the row. 
+
+# Section 3 - Troubleshooting and issue
+(Find additional code in dev_test_3 directory)
+
+## a) Explain why the issue might be happening.
+The issue could be happening because the current module ID (my-module) could be conflicting with Craft core contoller/installed plugin handles, this can be changed in the config/app.php file. 
+
+Another reason it could be happening is because of the template hook. 
+In the additional.html I have added the $handled into the craft\web\View::hook(). Adding the $handled and setting it to true prevents additional hook methods from getting triggered and causing an error. 
+
+Lastly, in the twig templating, I have added an if statement to handle if the $status == false.
+
+## b) Additional code
+Please view additional.html in dev_test_3 directory. 
+
+## c) Suggested improvements to the plugin
+

@@ -1,0 +1,26 @@
+<!--
+
+In the hook template, add $handled to prevent additional hook methods from getting triggered and set the 
+$handled to true
+
+    Craft::$app->view->hook('get-profile', function(array &$context, &$handled) {
+        $handled = true 
+
+        ** existing code ** 
+    }
+
+In the twig template files, add an if statement to handle if $success = false; :
+
+    {% set tracsIdList = block.tracsIdList %}
+    {% hook 'get-profiles' %}
+            <div class="row">
+                {% for profile in profiles %}
+                    {% if $status == false %}
+                        <p>No person located with specified name.</p>
+                    {% endif %}
+  
+                         ** existing code **
+
+                {% endfor %}
+
+-->
