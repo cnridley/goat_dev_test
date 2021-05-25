@@ -50,19 +50,12 @@ The four frames at the bottom turn into four rows.
 
 The second media query used was for an iPad and iPad Pro, the display is the same as larger screens, but the font sizes and widths had to be slightly decreased to ensure it fit on the row. 
 
-# Section 3 - Troubleshooting and issue
+# Section 3 - Troubleshooting an issue
 (Find additional code in dev_test_3 directory)
 
-## a) Explain why the issue might be happening.
-The issue could be happening because the current module ID name (my-module) could be conflicting with Craft core contoller/installed plugin handles, this can be changed in the config/app.php file. 
+The issue could be happening because the current module ID name (my-module) could be conflicting with Craft core contoller/installed plugin handles, this can be changed in the config/app.php file. I would suggested changing the name in order to avoid any conflict with other plugin handles.
 
 Another reason it could be happening is because of the template hook. 
 In the additional.html I have added the $handled into the craft\web\View::hook(). Adding the $handled and setting it to true prevents additional hook methods from getting triggered and causing an error. 
 
 Lastly, in the twig templating, I have added an if statement to handle if the $status == false.
-
-## b) Additional code
-Please view additional.html in dev_test_3 directory. 
-
-## c) Suggested improvements to the plugin
-
