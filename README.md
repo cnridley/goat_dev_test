@@ -58,4 +58,4 @@ The issue could be happening because the current module ID name (my-module) coul
 Another reason it could be happening is because of the template hook. 
 In the additional.html I have added the $handled into the craft\web\View::hook(). Adding the $handled and setting it to true prevents additional hook methods from getting triggered and causing an error. 
 
-Lastly, in the twig templating, I have added an if statement to handle if the $status == false. By doing this, even if no data is returned it is still rendered onto the HTML file. 
+Lastly, in the twig templating, I have added an if statement to handle if the $status == false. By doing this, even if no data is returned information is still rendered onto the HTML file. 
