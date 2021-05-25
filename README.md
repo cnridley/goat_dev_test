@@ -54,7 +54,7 @@ The second media query used was for an iPad and iPad Pro, the display is the sam
 (Find additional code in dev_test_3 directory)
 
 ## a) Explain why the issue might be happening.
-The issue could be happening because the current module ID (my-module) could be conflicting with Craft core contoller/installed plugin handles, this can be changed in the config/app.php file. 
+The issue could be happening because the current module ID name (my-module) could be conflicting with Craft core contoller/installed plugin handles, this can be changed in the config/app.php file. 
 
 Another reason it could be happening is because of the template hook. 
 In the additional.html I have added the $handled into the craft\web\View::hook(). Adding the $handled and setting it to true prevents additional hook methods from getting triggered and causing an error. 
